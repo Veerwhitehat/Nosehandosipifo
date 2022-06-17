@@ -1,0 +1,34 @@
+.heading{
+    font-size: 30px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 10px 10px 40px aqua;
+}
+
+.note{
+    font-size: 25px;
+    color: greenyellow ;
+}
+
+canvas{
+    border: 5px solid black red white yellow greenyellow lightgreen;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px aqua;
+
+}
+@keyframes color {
+  0%   { background: red; }
+  20%  { background: orange; }
+  40%  { background: yellow; }
+  60%  { background: #33CC36; }
+  80%  { background: aqua; }
+  90% { background: indigo; }
+  100% { background: violet; }
+}
+
+body {
+  background: red; 
+  animation: color 9s infinite linear;
+  text-align: center;
+  padding: 2em;
+}
