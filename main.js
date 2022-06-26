@@ -23,12 +23,13 @@ function modelloaded() {
 }
 
 function draw() {
-    
+    textSize(difference);
     background("green");
     fill("aqua");
     stroke("black");
+    text("Mr. Coder", noseX, noseY);
    
-    label(noseX, noseY, difference, "My Name is Veer ");
+    
 
 
 }
